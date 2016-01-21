@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.applicationcraft.appbb59444b9dd4418080a613a7db5a8391"
+	version 	= "0.1.491"
+        versionCode     = "1">
+
+	<name>Hospital Interface</name>
+
+	<description>
+          
+	</description>
+
+	<author href=""
+		email="">
+		
+	</author>
+
+	<preference name="orientation" value="any" />
+	<preference name="fullscreen" value="false" />
+	<preference name="phonegap-version" value="2.5.0" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="stay-in-webview" value="true" />
+	<preference name="ios-statusbarstyle" value="default" />
+	<preference name="android-minSdkVersion" value="7" />
+	<preference name="android-installLocation" value="internalOnly" />
+        <preference name="prerendered-icon" value="false" />
+        <preference name="target-device" value="universal" />
+        <preference name="autohide-splashscreen" value="false" />
+        <preference name="load-url-timeout" value="60000" />
+        <preference name="show-splashscreen-spinner" value="true" />
+        <preference name="show-splash-screen-spinner" value="true" />
+        <preference name="allow-inline-media-playback" value="false" />
+        <preference name="launch-mode" value="standard" />
+        <preference name="errorurl" value="error.html" />
+        
+        <feature name="http://api.phonegap.com/1.0/network"/>
+
+	<gap:platforms><gap:platform name="android" /><gap:platform name="webos" /><gap:platform name="winphone" /><gap:platform name="ios" /><gap:platform name="symbian.wrt" /><gap:platform name="blackberry" project="widgets"/></gap:platforms>
+
+	<icon src="AppResources/icons/icon.png"/>
+<icon src="AppResources/icons/iphone.png" gap:platform="ios" width="57" height="57" />
+<icon src="AppResources/icons/ipad.png" gap:platform="ios" width="72" height="72" />
+<icon src="AppResources/icons/iphoneretina.png" gap:platform="ios" width="114" height="114" />
+<icon src="AppResources/icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="AppResources/icons/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="AppResources/icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="AppResources/icons/wpicon.png" gap:platform="winphone" />
+<icon src="AppResources/icons/wptile.png" gap:platform="winphone" gap:role="background" />
+<icon src="AppResources/icons/icon.png" gap:platform="blackberry" />
+<gap:splash src="AppResources/splashes/mobile.png" />
+<gap:splash src="AppResources/splashes/iphone.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="AppResources/splashes/iphoneretina.png" gap:platform="ios" width="640" height="960" />
+<gap:splash src="AppResources/splashes/iphoneretina5.png" gap:platform="ios" width="640" height="1136" />
+<gap:splash src="AppResources/splashes/ipadl.png" gap:platform="ios" width="1024" height="768" />
+<gap:splash src="AppResources/splashes/ipadp.png" gap:platform="ios" width="768" height="1024" />
+<gap:splash src="AppResources/splashes/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="AppResources/splashes/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="AppResources/splashes/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="AppResources/splashes/wp.jpg" gap:platform="winphone" />
+
+        
+        
+</widget>
