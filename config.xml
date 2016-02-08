@@ -2,7 +2,11 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.applicationcraft.appbb59444b9dd4418080a613a7db5a8391"
+<<<<<<< HEAD
 	version 	= "0.1.491"
+=======
+	version 	= "0.1.641"
+>>>>>>> master
         versionCode     = "1">
 
 	<name>Hospital Interface</name>
